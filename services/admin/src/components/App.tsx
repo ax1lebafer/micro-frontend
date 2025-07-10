@@ -1,7 +1,9 @@
+import { AdminPage } from '@/pages/AdminPage';
+
 export const App = () => {
   return (
-    <div>
-      <h1>hello</h1>
-    </div>
+    <main>
+      <AdminPage />
+    </main>
   );
 };

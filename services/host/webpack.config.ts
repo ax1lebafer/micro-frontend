@@ -7,6 +7,7 @@ import {
   BuildMode,
 } from '@packages/build_config';
 import packageJson from './package.json';
+import sass from 'sass';
 
 interface EnvVariables {
   mode?: BuildMode;

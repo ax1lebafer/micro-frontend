@@ -1,7 +1,9 @@
+import { ShopPage } from '@/pages/ShopPage';
+
 export const App = () => {
   return (
     <div>
-      <h1>hello</h1>
+      <ShopPage />
     </div>
   );
 };
